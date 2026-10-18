@@ -1,0 +1,102 @@
+.start_project_container {
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.start_project_container .start_project_content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    background-color: var(--red);
+    color: var(--white-d);
+    padding: 2rem 1rem;
+}
+
+.ancora {
+    color: var(--red);
+    background-color: var(--white-d);
+    width: 150px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.ancora:active {
+    background-color: var(--red);
+    color: var(--white-d);
+}
+
+.start_project_container .start_project_content h1 {
+    font-size: 2rem;
+}
+
+.start_project_container .start_project_content p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.start_project_container .start_project_image img {
+    width: 100%;
+}
+
+
+
+@media screen and (min-width: 762px) and (max-width: 992px) {
+
+    .start_project_container .start_project_content h1 {
+        font-size: 2.4rem;
+    }
+
+    .start_project_container .start_project_content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .start_project_container {
+        flex-direction: row;
+    }
+
+    .start_project_container .start_project_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .start_project_container .start_project_content h1 {
+        font-size: 2.4rem;
+    }
+
+    .start_project_container .start_project_content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .start_project_container {
+        flex-direction: row;
+    }
+
+    .start_project_container .start_project_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .start_project_container .start_project_content h1 {
+        font-size: 2.4rem;
+    }
+
+    .start_project_container .start_project_content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

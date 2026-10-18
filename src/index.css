@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --white-d: #F8F8F8;
+    --primary: #FDFEFD;
+    --white: #ffffff;
+    --black-d: #171717;
+    --red: #E10000;
+    --gray: #eeee;
+}
+
+section {
+    max-width: 1500px;
+}

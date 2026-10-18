@@ -1,0 +1,96 @@
+.services {
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background-color: var(--white-d)
+}
+
+.service_container {
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.services .service_container .service_header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.services .service_container .service_header p {
+    font-size: 1rem;
+}
+
+.services .service_container .service_header h1 {
+    font-size: 2rem;
+}
+
+
+.services .service_container .service_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    /* margin: 0 auto; */
+}
+
+.services .service_container .service_wrapper .service_item {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    transition: 0.3s linear all;
+}
+
+.services .service_container .service_wrapper .service_item:hover {
+    transform: scale(1.1);
+}
+
+.services .service_container .service_wrapper .service_item .image_item img {
+    width: 100%;
+    height: 200px;
+}
+
+.services .service_container .service_wrapper .service_item p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+
+@media screen and (min-width: 762px) and (max-width: 992px) {
+    .services .service_container .service_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .services .service_container .service_header h1 {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .services .service_container .service_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .services .service_container .service_header h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .services .service_container .service_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .services .service_container .service_header h1 {
+        font-size: 2.5rem;
+    }
+}

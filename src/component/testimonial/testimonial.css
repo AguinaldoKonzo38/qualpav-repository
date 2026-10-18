@@ -1,0 +1,100 @@
+.testimonial_container {
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+}
+
+.testimonial_container .testimonial_header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.testimonial_container .testimonial_header h1 {
+    font-size: 2rem;
+}
+
+.testimonial_container .testimonial_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.testimonial_container .testimonial_wrapper .testimonial_card {
+    width: 100%;
+    background-color: #F4F4F5;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.testimonial_container .testimonial_wrapper .testimonial_card .testemunho {
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.testimonial_container .testimonial_wrapper .testimonial_card .testimonial_client {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.testimonial_container .testimonial_wrapper .testimonial_card .testimonial_client .info_client {
+    display: flex;
+    flex-direction: column;
+    gap: .1rem;
+}
+
+.testimonial_container .testimonial_wrapper .testimonial_card .testimonial_client .info_client p {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.testimonial_container .testimonial_wrapper .testimonial_card .testimonial_client .info_client span {
+    font-size: 14px;
+    color: var(--red);
+}
+
+.circle {
+    background-color: var(--red);
+    color: var(--white);
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 762px) and (max-width: 992px) {
+    
+    .testimonial_container .testimonial_wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .testimonial_container .testimonial_wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .testimonial_container .testimonial_wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+}
