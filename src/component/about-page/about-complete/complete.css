@@ -1,3 +1,217 @@
-.complete{
-    padding-top: 5rem;
+.about_page {
+    padding: 8rem 0;
+}
+
+.about_page_container {
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.description_section {
+    color: var(--red) !important;
+}
+
+.about_page_container .about_page_hero {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about_page_container .about_page_hero .about_page_hero_text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about_page_container .about_page_hero .about_page_hero_text h2 {
+    font-size: 34px;
+}
+
+.about_page_container .about_page_hero .about_page_hero_text p {
+    color: var(--g);
+    line-height: 25px;
+    padding-left: 6px;
+}
+
+.about_page_container .about_page_hero .about_page_hero_img img {
+    width: 100%;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+
+.about_page_container .about_page_statics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.about_page_container .about_page_statics .about_page_statics_text {
+    text-align: center;
+    line-height: 25px;
+    font-size: 15.6px;
+}
+
+.about_page_container .about_page_statics .about_page_content_statics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-between;
+}
+
+.about_page_container .about_page_statics .about_page_content_statics .about_us_wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.about_page_container .about_page_statics .about_page_content_statics .about_us_wrapper h2 {
+    font-size: 2.3rem;
+}
+
+.about_page_container .about_page_statics .about_page_content_statics .about_us_wrapper .legend_number {
+    font-size: 14px;
+    color: var(--g);
+}
+
+
+.about_page_container .about_page_mission {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.about_page_container .about_page_mission .about_mission_image img {
+    width: 100%;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+.about_page_container .about_page_mission .about_mission_content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about_page_container .about_page_mission .about_mission_content h2 {
+    font-size: 2.2rem;
+    font-weight: lighter;
+}
+
+.about_page_container .about_page_mission .about_mission_content p {
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--g);
+}
+
+.about_page_container .about_page_mission .about_mission_content ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.about_page_container .about_page_mission .about_mission_content ul li {
+    line-height: 24px;
+    color: var(--g);
+}
+
+
+@media screen and (min-width: 1200px) {
+    .about_page_container .about_page_hero {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .about_page_container .about_page_hero .about_page_hero_text {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        gap: 1rem;
+        max-width: 600px;
+    }
+
+    .about_page_container .about_page_hero .about_page_hero_text h2 {
+        font-size: 45px;
+    }
+
+    .about_page_container .about_page_hero .about_page_hero_text p {
+        line-height: 30px;
+        padding-left: 8px;
+    }
+
+    .about_page_container .about_page_hero .about_page_hero_img img {
+        width: 100%;
+        height: 350px;
+        border-radius: 1rem;
+    }
+
+
+    .about_page_container .about_page_statics {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4rem;
+        max-width: 950px;
+        margin: 0 auto;
+        padding: 5rem 0;
+    }
+
+    .about_page_container .about_page_statics .about_page_statics_text {
+        text-align: center;
+        line-height: 25px;
+        font-size: 16px;
+    }
+
+    .about_page_container .about_page_statics .about_page_content_statics {
+        gap: 12rem;
+        justify-content: space-between;
+    }
+
+    .about_page_container .about_page_statics .about_page_content_statics .about_us_wrapper h2 {
+        font-size: 2.6rem;
+    }
+
+    .about_page_container .about_page_statics .about_page_content_statics .about_us_wrapper .legend_number {
+        font-size: 14px;
+        color: var(--g);
+    }
+
+    .about_page_container .about_page_mission {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .about_page_container .about_page_mission .about_mission_image img {
+        width: 100%;
+        height: 400px;
+        border-radius: 1rem;
+    }
+
+    .about_page_container .about_page_mission .about_mission_content {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        max-width: 600px;
+        padding-top: .8rem;
+    }
+
+    .about_page_container .about_page_mission .about_mission_content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+
 }
