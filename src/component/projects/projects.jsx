@@ -13,15 +13,31 @@ function Projects() {
                 <div className="projects_wrapper">
                     <div className="project_card_item">
                         <img src={imgTest} alt="" />
+                        <div className="project_image_content">
+                            <h2>Title</h2>
+                            <p>Content yydxfydy gfgg fgvfvdfvf  rfvf</p>
+                        </div>
                     </div>
                     <div className="project_card_item">
                         <img src={imgTest} alt="" />
+                        <div className="project_image_content">
+                            <h2>Title</h2>
+                            <p>Content yydxfydy gfgg fgvfvdfvf  rfvf</p>
+                        </div>
                     </div>
                     <div className="project_card_item">
                         <img src={imgTest} alt="" />
+                        <div className="project_image_content">
+                            <h2>Title</h2>
+                            <p>Content yydxfydy gfgg fgvfvdfvf  rfvf</p>
+                        </div>
                     </div>
                     <div className="project_card_item">
                         <img src={imgTest} alt="" />
+                        <div className="project_image_content">
+                            <h2>Title</h2>
+                            <p>Content yydxfydy gfgg fgvfvdfvf  rfvf</p>
+                        </div>
                     </div>
                 </div>
 

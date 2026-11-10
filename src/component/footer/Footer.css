@@ -31,7 +31,7 @@
 .footer_container .footer_top .footer_logo p {
     max-width: 300px;
     line-height: 23px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .footer_container .footer_top .other_information {
@@ -120,7 +120,9 @@
 }
 
 .contact_wrapper .contact_item .contact_content p {
-    font-size: 14px;
+    line-height: 20px;
+    font-size: 12.4px !important;
+    max-width: 300px;
     font-weight: 600;
 }
 
@@ -130,8 +132,6 @@
 
 /* finish */
 
-
-
 /*  */
 
 .footer_container .footer_bottom {
@@ -140,7 +140,6 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
-
 
 .footer_container .footer_bottom .footer_links {
     display: flex;
@@ -167,13 +166,6 @@
     color: var(--red);
     text-decoration: underline;
 }
-
-.local{
-    max-width: 300px;
-    line-height: 20px;
-    font-size: 12.4px !important; 
-}
-
 
 @media screen and (min-width: 762px) and (max-width: 992px) {
 
@@ -273,7 +265,6 @@
         justify-content: space-between;
         padding-right: 1.2rem;
     }
-
 
     .footer_container .footer_bottom .footer_links {
         gap: 1.5rem;

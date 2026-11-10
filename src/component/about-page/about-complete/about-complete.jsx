@@ -1,4 +1,5 @@
 import ImgTest from "../../../assets/images/hero.jpg"
+import correctDone from "../../../assets/icons/correct_done.svg"
 
 import "./complete.css"
 
@@ -46,10 +47,10 @@ function AboutComplete() {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolorum omnis nisi, accusamus odio voluptatum nostrum placeat tempora amet totam quod hic animi, ipsum possimus officiis libero quam debitis porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, id voluptatem adipisci dicta nobis ex ipsam vitae libero culpa, dolorem pariatur eligendi illum laborum nostrum ea iste esse sit saepe.
                         </p>
                         <ul>
-                            <li>Fostering Sustainable Growth and Green Development</li>
-                            <li>Fostering Sustainable Growth and Green Development</li>
-                            <li>Fostering Sustainable Growth and Green Development</li>
-                            <li>Fostering Sustainable Growth and Green Development</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
                         </ul>
                     </div>
                 </div>
@@ -61,10 +62,10 @@ function AboutComplete() {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolorum omnis nisi, accusamus odio voluptatum nostrum placeat tempora amet totam quod hic animi, ipsum possimus officiis libero quam debitis porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, id voluptatem adipisci dicta nobis ex ipsam vitae libero culpa, dolorem pariatur eligendi illum laborum nostrum ea iste esse sit saepe.
                         </p>
                         <ul>
-                            <li>Fostering Sustainable Growth and Green Development</li>
-                            <li>Fostering Sustainable Growth and Green Development</li>
-                            <li>Fostering Sustainable Growth and Green Development</li>
-                            <li>Fostering Sustainable Growth and Green Development</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
                         </ul>
                     </div>
 
@@ -82,10 +83,10 @@ function AboutComplete() {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolorum omnis nisi, accusamus odio voluptatum nostrum placeat tempora amet totam quod hic animi, ipsum possimus officiis libero quam debitis porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, id voluptatem adipisci dicta nobis ex ipsam vitae libero culpa, dolorem pariatur eligendi illum laborum nostrum ea iste esse sit saepe.
                         </p>
                         <ul>
-                            <li>Fostering Sustainable Growth and Green Development</li>
-                            <li>Fostering Sustainable Growth and Green Development</li>
-                            <li>Fostering Sustainable Growth and Green Development</li>
-                            <li>Fostering Sustainable Growth and Green Development</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
                         </ul>
                     </div>
                 </div>

@@ -16,16 +16,18 @@
 .ancora {
     color: var(--red);
     background-color: var(--white-d);
-    width: 150px;
+    width: 200px;
     padding: 10px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     text-decoration: none;
+    text-align: center;
 }
 
 .ancora:active {
     background-color: var(--red);
     color: var(--white-d);
+    border: 1px solid var(--white-d);
 }
 
 .start_project_container .start_project_content h1 {
