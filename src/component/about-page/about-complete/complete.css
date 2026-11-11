@@ -95,20 +95,11 @@
     border-radius: 1rem;
 }
 
-.about_page_container .about_page_mission {
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
-    padding-bottom: 2rem;
-}
-
 .about_page_container .about_page_mission .about_mission_image img {
     width: 100%;
     height: 510px;
     border-radius: 1rem;
 }
-
-
 
 .about_page_container .about_page_mission .about_mission_content {
     display: flex;
@@ -145,6 +136,95 @@
 
 .about_page_container .about_page_mission .about_mission_content ul li span {
     margin-top: 0.2rem;
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .about_page_container .about_page_hero {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .about_page_container .about_page_hero .about_page_hero_text {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        gap: 1rem;
+        max-width: 600px;
+    }
+
+    .about_page_container .about_page_hero .about_page_hero_text h2 {
+        font-size: 45px;
+    }
+
+    .about_page_container .about_page_hero .about_page_hero_text p {
+        line-height: 30px;
+        padding-left: 8px;
+    }
+
+    .about_page_container .about_page_hero .about_page_hero_img img {
+        width: 100%;
+        height: 350px;
+        border-radius: 1rem;
+    }
+
+
+    .about_page_container .about_page_statics {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4rem;
+        max-width: 950px;
+        margin: 0 auto;
+        padding: 5rem 0;
+    }
+
+    .about_page_container .about_page_statics .about_page_statics_text {
+        text-align: center;
+        line-height: 25px;
+        font-size: 16px;
+    }
+
+    .about_page_container .about_page_statics .about_page_content_statics {
+        gap: 12rem;
+        justify-content: space-between;
+    }
+
+    .about_page_container .about_page_statics .about_page_content_statics .about_us_wrapper h2 {
+        font-size: 2.6rem;
+    }
+
+    .about_page_container .about_page_statics .about_page_content_statics .about_us_wrapper .legend_number {
+        font-size: 14px;
+        color: var(--g);
+    }
+
+    .about_page_container .about_page_mission {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .about_page_container .about_page_mission .about_mission_image img {
+        width: 100%;
+        height: 510px;
+        border-radius: 1rem;
+    }
+
+    .about_page_container .about_page_mission .about_mission_content {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        max-width: 600px;
+        padding-top: 3rem;
+    }
+
+    .about_page_container .about_page_mission .about_mission_content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
 }
 
 

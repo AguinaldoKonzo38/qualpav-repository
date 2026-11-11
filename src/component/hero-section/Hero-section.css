@@ -1,12 +1,7 @@
- section {
-     padding: 20% 0 0 0;
-     margin: 5% 0;
- }
 
+ 
  .hero_container {
-     height: 86vh;
-     position: relative;
-
+     height: 95vh;
      background-position: center left;
      background-repeat: no-repeat;
      background-size: cover;
@@ -60,9 +55,9 @@
  }
 
  @media screen and (min-width:768px) and (max-width:992px) {
-     section {
+     /* section {
          padding: 10% 0 0 0;
-     }
+     } */
 
      .hero_container .hero_text h1 {
          font-size: 3.3rem;
@@ -73,13 +68,19 @@
          font-size: 1.1rem;
          max-width: 600px;
          line-height: 1.8rem;
+     }
+
+     .controllerCarossel {
+         bottom: 5.5rem;
+         left: 50%;
+         transform: translate(-80px);
      }
  }
 
  @media screen and (min-width:992px) and (max-width:1200px) {
-     section {
+     /* section {
          padding: 6.5% 0 0 0;
-     }
+     } */
 
      .hero_container .hero_text h1 {
          font-size: 3.3rem;
@@ -90,13 +91,19 @@
          font-size: 1.1rem;
          max-width: 600px;
          line-height: 1.8rem;
+     }
+
+     .controllerCarossel {
+         bottom: 5.5rem;
+         left: 50%;
+         transform: translate(-80px);
      }
  }
 
  @media screen and (min-width:1200px) {
-     section {
+     /* section {
          padding: 6.5% 0 0 0;
-     }
+     } */
 
      .hero_container .hero_text h1 {
          font-size: 3.3rem;
@@ -107,5 +114,11 @@
          font-size: 1.1rem;
          max-width: 600px;
          line-height: 1.8rem;
+     }
+
+     .controllerCarossel {
+         bottom: 5.5rem;
+         left: 50%;
+         transform: translate(-80px);
      }
  }

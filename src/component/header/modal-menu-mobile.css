@@ -3,9 +3,6 @@
     inset: 0;
     z-index: 9999;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
     padding: 20px;
 
@@ -19,13 +16,13 @@
     right: 0px;
     top: 0px;
     width: 200px;
-    height: 400px;
+    height: 340px;
     position: absolute;
     border-radius: 0;
     transition: 0.5s;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .btn-close-menu {
@@ -47,6 +44,8 @@
     flex-direction: column;
     gap: 25px;
     padding: 20px;
+   
+    
 }
 
 .nav-links-mobile .ancora {
@@ -56,4 +55,12 @@
     line-height: 19px;
     font-weight: 600;
     transition: 0.3s ease;
+    background-color: var(--primary);
+    text-align: justify;
+    border-bottom: 1px solid var(--g);
+    width: 155px;
+}
+
+.nav-links-mobile .ancora h6:hover {
+    color: var(--red);
 }

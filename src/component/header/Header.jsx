@@ -14,7 +14,7 @@ function Header() {
     const eventScrool = (id) => {
         const sectionSelected = document.getElementById(id)
 
-        if(sectionSelected) {
+        if (sectionSelected) {
             sectionSelected.scrollIntoView({
                 behavior: "smooth",
                 block: "start"
@@ -31,26 +31,23 @@ function Header() {
 
                 <ul className="nav-links" >
                     <li>
-                        <Link className="link" to="/" onClick={() => eventScrool("hero_section")} >Home</Link>
+                        <Link className="link" to="/" onClick={() => eventScrool("hero_section")} >Início</Link>
                     </li>
+
                     <li>
-                        {/* <Link to="/">Serviços</Link> */}
+                        <Link className="link" to="/" onClick={() => eventScrool("about_us")}>Sobre nós</Link>
                     </li>
+
                     <li>
-                        <Link className="link" to="/" onClick={()=> eventScrool("about_us")}>Sobre nós</Link>
+                        <Link to="/" onClick={() => eventScrool("projects")} >Projectos</Link>
                     </li>
+
                     <li>
                         <Link className="link" to="/" onClick={() => eventScrool("footer")}>Contactos</Link>
                     </li>
                 </ul>
 
                 <div className="nav-rigth">
-                    {/* <div className="number">
-                        <div className="number_btn_wrap">
-                            <span>+244 928 170 460</span>
-                            <span>+244 923 686 726</span>
-                        </div>
-                    </div> */}
                     <Link to="" className="contratar">Contratar Serviço</Link>
 
                     <FaBars onClick={() => setIsOpen(true)} className="menu_mobile" size={26} />

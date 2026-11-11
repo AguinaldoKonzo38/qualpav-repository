@@ -6,7 +6,7 @@ import "./complete.css"
 function AboutComplete() {
     return (
         <section className="about_page">
-            <div className="about_page_container">
+            <div className="about_page_container" id="about_page_container">
                 <div className="about_page_hero">
                     <div className="about_page_hero_text">
                         <p className="description_section">[ABOUT US]</p>

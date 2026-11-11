@@ -36,6 +36,7 @@
     height: 210px;
     background-color: var(--red);
     color: var(--white);
+    border-radius: 6px;
 }
 
 .What_container .what_wrapper .what_card_item div {

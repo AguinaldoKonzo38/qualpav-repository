@@ -29,9 +29,9 @@ function ModalMenuMobile({ isOpen, onClose }) {
                 <nav className="nav-links-mobile">
                     <Link className="ancora" to="/"><h6 onClick={() => eventScrool("hero_section")}>Início</h6></Link>
                     <Link className="ancora" to="/"><h6 onClick={() => eventScrool("about_us")} >Sobre nós</h6></Link>
-                    {/* <Link className="ancora" to="/"><h6 onClick={() => scrollToSection("mission")}>Missão</h6></Link> */}
-                    {/* <Link className="ancora" to="/" ><h6>Notícias</h6></Link> */}
-                    <Link className="ancora" to="/"><h6 onClick={() => eventScrool("footer")} >Contato</h6></Link>
+                    <Link className="ancora" to="/" onClick={() => eventScrool("projects")} ><h6>Projectos</h6></Link>
+
+                    <Link className="ancora" to="/"><h6 onClick={() => eventScrool("footer")} >Contactos</h6></Link>
                 </nav>
 
             </div>

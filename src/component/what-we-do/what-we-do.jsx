@@ -1,14 +1,13 @@
 import "./what-we-do.css"
-import img from "../../assets/images/hero.jpg"
 
 function WhatWeDo() {
     return (
         <section className="what_we_do">
             <div className="What_container">
                 <div className="what_text">
-                    <p className="red_text">WHAT WE DO</p>
-                    <h1>Solutions We Deliver</h1>
-                    <p className="What_text_normal"> We Provide end-to-end construction solutions tailored to your needs. From planning and design to execution and maintenarsce. Weensure every project is delivered with precision and quality. </p>
+                    <p className="red_text">O QUE FAZEMOS</p>
+                    <h1>Soluções que Oferecemos</h1>
+                    <p className="What_text_normal">Oferecemos soluções completas de construção civil, adaptadas às suas necessidades. Desde o planeamento e a concepção até à execução e manutenção, garantimos que cada projecto seja realizado com precisão e qualidade. </p>
                 </div>
 
                 <div className="what_wrapper">

@@ -14,7 +14,7 @@ function AboutUs() {
                 <div className="about_us_content">
                     <div className="about_us_content_title">
                         <p className="red_text">SOBRE NÓS</p>
-                        <h2>conheça a <span className="red_text"> Qualpav</span> ,o Seu Parceiro na Construção</h2>
+                        <h2>Conheça a <span className="red_text"> Qualpav</span> ,o Seu Parceiro na Construção</h2>
                     </div>
 
                     <div className="about_us_content_text">

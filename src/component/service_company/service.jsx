@@ -1,69 +1,97 @@
-import "./services.css"
+import React from "react";
+import "./services.css";
 
-import Img from "../../assets/images/test.png"
+const services = [
+  {
+    id: 1,
+    category: "Vias de comunicação",
+    title: "Construção de estradas",
+    description:
+      "Construção de estradas e vias de acesso, garantindo qualidade, segurança e durabilidade.",
+    image:
+      "https://images.unsplash.com/photo-1545459720-aac8509eb02d?w=800&q=85",
+  },
+  {
+    id: 2,
+    category: "Instalação eléctrica",
+    title: "Instalações eléctricas",
+    description:
+      "Execução de instalações e sistemas eléctricos em edifícios e diferentes infraestruturas.",
+    image:
+      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=85",
+  },
+  {
+    id: 3,
+    category: "Construção de edifícios",
+    title: "Construção de edifícios",
+    description:
+      "Construção de edifícios com soluções eficientes, qualidade e rigor em cada etapa.",
+    image:
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=85",
+  },
+
+  {
+    id: 4,
+    category: "Obras de realce",
+    title: "Valorização de infraestruturas",
+    description:
+      "Execução de intervenções e melhorias destinadas à valorização de infraestruturas.",
+    image:
+      "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=85",
+  },
+];
 
 function Services() {
-    return (
-        <section className="services">
-            <div className="service_container">
-                <div className="service_header">
-                    <p><span className="red_text">OUR SERVICES</span></p>
-                    <h1>From <span className="red_text">Ideas</span> to Concrete Reality</h1>
-                </div>
+  return (
+    <section className="services-section" id="servicos">
+      <div className="services-container">
 
-                <div className="service_wrapper">
+        {/* Cabeçalho */}
+        <div className="service_header">
+          <p className="red_text">NOSSOS SERVIÇOS</p>
+          <h1>Das <span className="red_text">Ideias</span> à Realidade Concreta</h1>
+        </div>
 
-                    <div className="service_item">
-                        <h3 className="red_text">Residential Construction</h3>
-                        <div className="image_item">
-                            <img src={Img} alt="sss" />
-                        </div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum nam accusamus cupiditate eligendi incidunt cum rerum rem at eveniet iusto soluta est, veniam quo nihil commodi quas dolor libero! Culpa.</p>
-                    </div>
-                    <div className="service_item">
-                        <h3 className="red_text">Commercial Construction</h3>
-                        <div className="image_item">
-                            <img src={Img} alt="sss" />
-                        </div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum nam accusamus cupiditate eligendi incidunt cum rerum rem at eveniet iusto soluta est, veniam quo nihil commodi quas dolor libero! Culpa.</p>
-                    </div>
-                    <div className="service_item">
-                        <h3 className="red_text">Renovation & Remodeling</h3>
-                        <div className="image_item">
-                            <img src={Img} alt="sss" />
-                        </div>
-                        
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum nam accusamus cupiditate eligendi incidunt cum rerum rem at eveniet iusto soluta est, veniam quo nihil commodi quas dolor libero! Culpa.</p>
-                    </div>
-                    <div className="service_item">
-                        <h3 className="red_text">Architecture</h3>
-                        <div className="image_item">
-                            <img src={Img} alt="sss" />
-                        </div>
-                        
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum nam accusamus cupiditate eligendi incidunt cum rerum rem at eveniet iusto soluta est, veniam quo nihil commodi quas dolor libero! Culpa.</p>
-                    </div>
-                    <div className="service_item">
-                        <h3 className="red_text">Project Managemment</h3>
-                        <div className="image_item">
-                            <img src={Img} alt="sss" />
-                        </div>
-                        
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum nam accusamus cupiditate eligendi incidunt cum rerum rem at eveniet iusto soluta est, veniam quo nihil commodi quas dolor libero! Culpa.</p>
-                    </div>
-                    <div className="service_item">
-                        <h3 className="red_text">Structural Engineering</h3>
-                        <div className="image_item">
-                            <img src={Img} alt="sss" />
-                        </div>
-                        
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum nam accusamus cupiditate eligendi incidunt cum rerum rem at eveniet iusto soluta est, veniam quo nihil commodi quas dolor libero! Culpa.</p>
-                    </div>
-                </div>
-            </div>
+        {/* Grelha de serviços */}
+        <div className="services-grid">
+          {services.map((service) => (
+            <article className="service-card" key={service.id}>
 
-        </section>
-    )
+              <div className="service-image">
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  loading="lazy"
+                />
+
+                <span className="service-number">
+                  {String(service.id).padStart(2, "0")}
+                </span>
+              </div>
+
+              <div className="service-content">
+
+                <span className="service-category">
+                  {service.category}
+                </span>
+
+                <h3>{service.title}</h3>
+
+                <p>{service.description}</p>
+
+                <a href="#contactos" className="service-link">
+                  Solicitar serviço
+                  <span>↗</span>
+                </a>
+
+              </div>
+            </article>
+          ))}
+        </div>
+
+      </div>
+    </section>
+  );
 }
 
-export default Services
+export default Services;
