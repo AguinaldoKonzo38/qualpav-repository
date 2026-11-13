@@ -9,9 +9,9 @@ function AboutComplete() {
             <div className="about_page_container" id="about_page_container">
                 <div className="about_page_hero">
                     <div className="about_page_hero_text">
-                        <p className="description_section">[ABOUT US]</p>
-                        <h2>Crafting Excellence Together</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, cum error excepturi amet ratione debitis alias nam. Laborum voluptatibus facilis labore nisi quasi, necessitatibus, nostrum quam ipsam magni aperiam maxime.</p>
+                        <p className="description_section">[SOBRE NÓS]</p>
+                        <h2>Conheça a Qualpav ,o Seu Parceiro na Construção</h2>
+                        <p>A Qualpav é uma empresa de engenharia e construção dedicada à criação de infraestruturas de qualidade, desenvolvendo soluções que promovem o progresso e contribuem para o crescimento de Angola.</p>
                     </div>
 
                     <div className="about_page_hero_img">
@@ -20,7 +20,7 @@ function AboutComplete() {
                 </div>
 
                 <div className="about_page_statics">
-                    <p className="about_page_statics_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, optio minus. Reiciendis nesciunt expedita quae rem esse! Expedita, voluptates assumenda, totam possimus ducimus ab mollitia explicabo autem provident facilis modi.</p>
+                    <p className="about_page_statics_text">Acreditamos que cada projeto representa uma oportunidade de transformar realidades e construir um futuro melhor. Por isso, trabalhamos com dedicação, rigor técnico e compromisso com a qualidade, desenvolvendo soluções que respondem às necessidades dos nossos clientes e contribuem para o crescimento sustentável de Angola.</p>
 
                     <div className="about_page_content_statics">
                         <div className="about_us_wrapper">
@@ -44,13 +44,13 @@ function AboutComplete() {
                     </div>
                     <div className="about_mission_content">
                         <h2>Nossa Missão</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolorum omnis nisi, accusamus odio voluptatum nostrum placeat tempora amet totam quod hic animi, ipsum possimus officiis libero quam debitis porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, id voluptatem adipisci dicta nobis ex ipsam vitae libero culpa, dolorem pariatur eligendi illum laborum nostrum ea iste esse sit saepe.
+                        <p>Desenvolver soluções de engenharia e construção que contribuam para o crescimento e a modernização de Angola, através da execução de projetos com elevados padrões de qualidade, segurança e eficiência. Trabalhamos para transformar ideias em infraestruturas sólidas e duradouras, criando valor para os nossos clientes e contribuindo para o desenvolvimento sustentável das comunidades.
                         </p>
                         <ul>
-                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
-                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
-                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
-                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Garantir qualidade e excelência em cada projeto.</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Promover segurança e eficiência em todas as operações.</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Desenvolver infraestruturas modernas e duradouras.</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Contribuir para o crescimento e desenvolvimento de Angola.</li>
                         </ul>
                     </div>
                 </div>
@@ -58,14 +58,14 @@ function AboutComplete() {
                 <div className="about_page_mission">
 
                     <div className="about_mission_content">
-                        <h2>Nossa Missão</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolorum omnis nisi, accusamus odio voluptatum nostrum placeat tempora amet totam quod hic animi, ipsum possimus officiis libero quam debitis porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, id voluptatem adipisci dicta nobis ex ipsam vitae libero culpa, dolorem pariatur eligendi illum laborum nostrum ea iste esse sit saepe.
+                        <h2>Nossos Objetivos</h2>
+                        <p>A Qualpav orienta a sua atuação para alcançar resultados consistentes no setor da engenharia e construção, procurando crescer de forma sustentável, fortalecer a confiança dos seus clientes e contribuir para o desenvolvimento de Angola. Os nossos objetivos refletem a ambição de construir projetos de qualidade e criar valor duradouro.
                         </p>
                         <ul>
-                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
-                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
-                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
-                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> - Desenvolver projetos de engenharia e construção com elevados padrões de qualidade.</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Expandir a presença da Qualpav no mercado nacional.</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Estabelecer parcerias estratégicas com clientes e fornecedores.</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Contribuir para o desenvolvimento das infraestruturas e o crescimento de Angola.</li>
                         </ul>
                     </div>
 
@@ -79,14 +79,14 @@ function AboutComplete() {
                         <img src={ImgTest} alt="" />
                     </div>
                     <div className="about_mission_content">
-                        <h2>Nossa Missão</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolorum omnis nisi, accusamus odio voluptatum nostrum placeat tempora amet totam quod hic animi, ipsum possimus officiis libero quam debitis porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, id voluptatem adipisci dicta nobis ex ipsam vitae libero culpa, dolorem pariatur eligendi illum laborum nostrum ea iste esse sit saepe.
+                        <h2>O Nosso Diferencial</h2>
+                        <p>Na Qualpav, acreditamos que a qualidade de um projeto está nos detalhes, no rigor da execução e na dedicação de cada profissional envolvido. Diferenciamo-nos pela capacidade de compreender as necessidades dos nossos clientes e transformá-las em soluções eficientes, seguras e duradouras. Cada desafio é uma oportunidade de demonstrar a nossa competência, responsabilidade e compromisso com a excelência.
                         </p>
                         <ul>
-                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
-                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
-                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
-                            <li><span><img src={correctDone} alt="correct_icon" /></span> Fostering Sustainable Growth and Green Development</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Atendimento personalizado e focado no cliente.</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Rigor técnico em todas as etapas dos projetos.</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Profissionais comprometidos com a excelência.</li>
+                            <li><span><img src={correctDone} alt="correct_icon" /></span> Cumprimento dos padrões de qualidade e segurança.</li>
                         </ul>
                     </div>
                 </div>

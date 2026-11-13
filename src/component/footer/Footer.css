@@ -31,7 +31,7 @@
 .footer_container .footer_top .footer_logo p {
     max-width: 300px;
     line-height: 23px;
-    font-size: 12px;
+    font-size: 13.5px;
 }
 
 .footer_container .footer_top .other_information {
@@ -155,6 +155,13 @@
 
 .footer_container .footer_bottom .footer_links a:hover {
     color: var(--red);
+}
+
+
+.copyrigth {
+    font-size: 14px;
+    color: var(--black-d);
+    line-height: 20px;
 }
 
 .copyrigth a {

@@ -3,6 +3,7 @@ import Header from "./component/header/Header"
 import Homepage from "./pages/homepage/Homepage"
 import Footer from "./component/footer/Footer"
 import AboutPage from "./pages/about-us/About-us"
+import Formulary from "./pages/Formulary/Formulary"
 
 const Layout = () => {
   return (
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "/about-us",
         element: <AboutPage />
+      },
+      {
+        path: "/SolicitarServico",
+        element: <Formulary />
       }
     ]
   }

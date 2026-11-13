@@ -48,7 +48,7 @@ function Header() {
                 </ul>
 
                 <div className="nav-rigth">
-                    <Link to="" className="contratar">Contratar Serviço</Link>
+                    <Link to="/SolicitarServico" className="contratar">Solicitar Serviço</Link>
 
                     <FaBars onClick={() => setIsOpen(true)} className="menu_mobile" size={26} />
                 </div>

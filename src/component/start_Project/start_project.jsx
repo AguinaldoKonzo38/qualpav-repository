@@ -6,12 +6,12 @@ import img from "../../assets/images/hero.jpg"
 function StartProject() {
     
     return(
-        <section className="start_project">
+        <section className="start_project" id="start_project">
             <div className="start_project_container">
                 <div className="start_project_content">
-                    <h1>Start Your Project With Us</h1>
-                    <p>Start your project with a team that values precision, creativity, and trust. We transform ideas into functional, moderns spaces built to last</p>
-                    <Link to="/" className="ancora">Contratar Serviço</Link>
+                    <h1>Comece o Seu Projecto Connosco</h1>
+                    <p>Comece o seu projecto com uma equipa que valoriza a precisão, criatividade e confiança. Transformamos ideias em espaços funcionais e modernos, construídos para durar</p>
+                    <Link to="/SolicitarServico" className="ancora">Solicitar Orçamento</Link>
                 </div>
                 <div className="start_project_image">
                     <img src={img} alt="" />

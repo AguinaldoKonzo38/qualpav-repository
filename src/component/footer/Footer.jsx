@@ -45,7 +45,7 @@ function Footer() {
                     <div className="footer_top">
                         <div className="footer_logo">
                             <img src={ImgLogo} alt="Logo" />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates, asperiores consequuntur molestiae odio dolorum corporis. Deleniti dolorem porro</p>
+                            <p>Cada projecto tem uma história. A nossa missão é construí-la com qualidade, responsabilidade e excelência, do primeiro traço à obra concluída.</p>
                         </div>
 
                         <div className="other_information">
