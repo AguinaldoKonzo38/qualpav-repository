@@ -1,6 +1,9 @@
 import "./services.css";
 import { Link } from "react-router-dom";
 
+import ImgElectricidade from "../../assets/images/electricidade.png";
+import ImgEstradas from "../../assets/images/estradas.png";
+
 const services = [
   {
     id: 1,
@@ -8,8 +11,7 @@ const services = [
     title: "Construção de estradas",
     description:
       "Construção de estradas e vias de acesso, garantindo qualidade, segurança e durabilidade.",
-    image:
-      "https://images.unsplash.com/photo-1545459720-aac8509eb02d?w=800&q=85",
+    image: ImgEstradas,
   },
   {
     id: 2,
@@ -17,8 +19,7 @@ const services = [
     title: "Instalações eléctricas",
     description:
       "Execução de instalações e sistemas eléctricos em edifícios e diferentes infraestruturas.",
-    image:
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=85",
+    image: ImgElectricidade,
   },
   {
     id: 3,
